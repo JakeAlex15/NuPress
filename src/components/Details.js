@@ -23,14 +23,11 @@ render () {
                 <h1>{title}</h1>
                     </div>
                     </div>
-                    {/*end title */}
-                    {/* product info */}
                     <div className="row">
                         <div className="col-10 mx-auto col-md-6 my-3">
                             <img src={img} className="img-fluid" alt="product"
                         />
                         </div>
-                        {/*product text */}
                         <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
                             <h2>title: {title}</h2>
                             <h4 className="text-blue">
@@ -43,7 +40,6 @@ render () {
                             some info about product:
                         </p>
                         <p className="text-muted lead">{info}</p>
-                        {/* buttons */}
                         <div>
                             <Link to="/">
                                 <ButtonContainer>back to products</ButtonContainer>
@@ -56,7 +52,7 @@ render () {
                                     value.openModal(id);
                                 }}
                             >
-                                {inCart ? "inCart" : "add to cart"}
+                                {inCart ? "in Cart" : "add to cart"}
                             </ButtonContainer>
                         </div>
                         </div>
@@ -80,3 +76,4 @@ render () {
         )
     }
 */
+
