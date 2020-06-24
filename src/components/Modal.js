@@ -46,7 +46,6 @@ export default class Modal extends Component {
         );
     }
 }
-/* Line 30: Change if homepage is not main product page */
 
 
 const ModalContainer = styled.div`

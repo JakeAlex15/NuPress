@@ -9,13 +9,18 @@ export default class Navbar extends Component {
         return(
            <NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
                <Link to='/'>
-                   <img src={logo} alt='store' className="navbar-brand" /* Logo Linked Above */ />
+                   <img src={logo} alt='store' className="navbar-brand" />
                </Link>
                <ul className="navbar-nav align-items-center">
                    <li className="nav-item ml-5">
-                    <Link to="/" className="nav-link"><strong>The NuPress Bookstore</strong></Link>
+                    <Link to="/" className="nav-link"><strong>NuCamp Press Bookstore</strong></Link>
                    </li>
-               </ul>   
+               </ul>
+               <ul className="navbar-nav align-items-center">
+                   <li className="nav-item ml-5">
+                    <Link to="/podcasthome" className="nav-link"><strong>NuCamp Press Podcasts</strong></Link>
+                   </li>
+               </ul>      
             <Link to="/cart" className="ml-auto">
                 <ButtonContainer>
                     <span className="mr-2">
